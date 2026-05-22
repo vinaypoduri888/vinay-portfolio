@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vinay Poduri — AI Engineer at String Metaverse. Building intelligent systems, scalable APIs, and ML-powered solutions.">
+  <meta name="author" content="Vinay Poduri">
+  <meta property="og:title" content="Vinay Poduri | AI Engineer">
+  <meta property="og:description" content="AI Engineer specializing in Machine Learning, Backend Development, and intelligent systems.">
+  <meta property="og:type" content="website">
+  <title>Vinay Poduri | AI Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Vinay <span>Poduri</span></a>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-right">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="bi bi-moon-fill theme-icon-dark"></i>
+          <i class="bi bi-sun-fill theme-icon-light"></i>
+        </button>
+        <a href="assets/pdf/vinaypoduri_resume.pdf" target="_blank" class="btn-resume">
+          <i class="bi bi-file-earmark-text"></i> Resume
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+      <div class="hero-bg">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+      </div>
+      <!-- Floating particles via JS -->
+      <canvas id="particle-canvas"></canvas>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="hero-badge"><i class="bi bi-lightning-charge-fill"></i> Available for Opportunities</span>
+          <h1>Hi, I'm <span class="gradient-text">Vinay Poduri</span></h1>
+          <h2 class="hero-role">AI Engineer at <span class="company-highlight">String Metaverse</span></h2>
+          <p class="hero-typing">I build <span id="typing-text"></span><span class="typing-cursor">|</span></p>
+          <div class="hero-cta">
+            <a href="assets/pdf/vinaypoduri_resume.pdf" target="_blank" class="btn btn-primary">
+              <i class="bi bi-download"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="bi bi-send"></i> Let's Talk
+            </a>
+          </div>
+          <div class="hero-social">
+            <a href="https://www.linkedin.com/in/vinay-poduri-148b84265" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/vinaypoduri888" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="mailto:vinaypoduri888@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+            <a href="https://t.me/vinaypoduri" target="_blank" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+            <a href="https://wa.me/918466837448" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-img-wrapper">
+            <img src="assets/images/v4.jpeg" alt="Vinay Poduri - AI Engineer at his desk">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get to know me</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <div class="about-img-wrapper">
+              <img src="assets/images/v3.jpeg" alt="Vinay Poduri">
+            </div>
+          </div>
+          <div class="about-content reveal">
+            <p>I'm an <strong>AI Engineer at String Metaverse</strong>, specializing in building intelligent systems and scalable backend architectures. With a strong foundation in Machine Learning, Data Science, and Full-Stack Development, I bridge the gap between AI research and production-ready solutions.</p>
+            <p>Currently, I'm developing blockchain-based platforms integrating AI services with AWS, building REST APIs, and implementing scalable microservice architectures. I graduated with a B.Tech in AI &amp; ML and have since gained professional experience across the full software development lifecycle.</p>
+            <p>I'm driven by a passion for solving real-world problems through technology and am always looking for challenges that push boundaries.</p>
+            <div class="about-stats">
+              <div class="stat-card reveal">
+                <span class="stat-number" data-target="1">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-card reveal">
+                <span class="stat-number" data-target="3">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat-card reveal">
+                <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+                <span class="stat-label">Certifications</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Where I've worked</span>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker active-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">2025 — Present</span>
+                <span class="timeline-badge current">Current</span>
+              </div>
+              <h3>AI Engineer</h3>
+              <h4>String Metaverse</h4>
+              <ul>
+                <li>Contributing to Bills on Chain — a blockchain-based bill management platform</li>
+                <li>Developing REST APIs using Express for bill upload, validation, and reward workflows</li>
+                <li>Integrating frontend with backend services for secure bill ingestion and tracking</li>
+                <li>Implementing API flows for bill lifecycle (upload → processing → rewards) using Redis-backed queues</li>
+                <li>Contributing to scalable backend architecture with PostgreSQL and AWS S3</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Node.js</span><span>Express</span><span>Redis</span><span>PostgreSQL</span><span>AWS S3</span><span>Amazon Bedrock</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">2024</span>
+              </div>
+              <h3>Data Science Intern</h3>
+              <h4>DevZen</h4>
+              <ul>
+                <li>Applied data science methodologies to real-world datasets and business problems</li>
+                <li>Built data pipelines and performed exploratory data analysis using Python</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Python</span><span>Data Science</span><span>Pandas</span><span>Machine Learning</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">2024</span>
+              </div>
+              <h3>AI &amp; ML Intern</h3>
+              <h4>Microsoft · AICTE</h4>
+              <ul>
+                <li>Gained hands-on experience with AI and Machine Learning workflows</li>
+                <li>Worked on supervised and unsupervised learning projects with real-world data</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Python</span><span>Machine Learning</span><span>Deep Learning</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS / TECH STACK SECTION ===== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What I work with</span>
+          <h2 class="section-title">Tech Stack</h2>
+        </div>
+        <div class="skills-tabs reveal">
+          <button class="skill-tab active" data-category="all">All</button>
+          <button class="skill-tab" data-category="languages">Languages</button>
+          <button class="skill-tab" data-category="ai-ml">AI &amp; ML</button>
+          <button class="skill-tab" data-category="web-backend">Web &amp; Backend</button>
+          <button class="skill-tab" data-category="databases">Databases</button>
+          <button class="skill-tab" data-category="tools">Cloud &amp; Tools</button>
+        </div>
+        <div class="skills-grid" id="skills-grid">
+          <div class="skill-item reveal" data-category="languages"><i class="bi bi-code-slash"></i><span>Python</span></div>
+          <div class="skill-item reveal" data-category="languages"><i class="bi bi-braces-asterisk"></i><span>JavaScript</span></div>
+
+          <div class="skill-item reveal" data-category="languages"><i class="bi bi-database"></i><span>SQL</span></div>
+          <div class="skill-item reveal" data-category="ai-ml"><i class="bi bi-cpu"></i><span>Machine Learning</span></div>
+          <div class="skill-item reveal" data-category="ai-ml"><i class="bi bi-diagram-3"></i><span>Deep Learning</span></div>
+          <div class="skill-item reveal" data-category="ai-ml"><i class="bi bi-graph-up-arrow"></i><span>Data Science</span></div>
+          <div class="skill-item reveal" data-category="ai-ml"><i class="bi bi-eye"></i><span>Computer Vision</span></div>
+
+
+          <div class="skill-item reveal" data-category="web-backend"><i class="bi bi-braces"></i><span>Node.js</span></div>
+
+          <div class="skill-item reveal" data-category="web-backend"><i class="bi bi-arrows-angle-expand"></i><span>REST APIs</span></div>
+          <div class="skill-item reveal" data-category="web-backend"><i class="bi bi-lightning"></i><span>Streamlit</span></div>
+          <div class="skill-item reveal" data-category="databases"><i class="bi bi-database-fill"></i><span>PostgreSQL</span></div>
+          <div class="skill-item reveal" data-category="databases"><i class="bi bi-database-fill-gear"></i><span>MongoDB</span></div>
+
+          <div class="skill-item reveal" data-category="tools"><i class="bi bi-cloud"></i><span>AWS S3</span></div>
+          <div class="skill-item reveal" data-category="tools"><i class="bi bi-robot"></i><span>Amazon Bedrock</span></div>
+          <div class="skill-item reveal" data-category="tools"><i class="bi bi-bar-chart-line"></i><span>Power BI</span></div>
+          <div class="skill-item reveal" data-category="tools"><i class="bi bi-git"></i><span>Git</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What I've built</span>
+          <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-banner gradient-green">
+              <i class="bi bi-receipt-cutoff"></i>
+            </div>
+            <div class="project-content">
+              <span class="project-type">Professional Project</span>
+              <h3>Bills on Chain</h3>
+              <p>Blockchain-based bill management platform. Developed REST APIs for bill upload, validation, and reward workflows. Implemented bill lifecycle flows with Redis-backed queues and integrated AI services via Amazon Bedrock.</p>
+              <div class="project-tags">
+                <span>Node.js</span><span>Express</span><span>Redis</span><span>PostgreSQL</span><span>AWS S3</span><span>Bedrock</span>
+              </div>
+              <div class="project-links">
+                <a href="https://billsonchain.io/" target="_blank" class="project-link"><i class="bi bi-box-arrow-up-right"></i> Live Site</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-banner">
+              <img src="assets/images/explore data.jpeg" alt="ExploreData Tool">
+            </div>
+            <div class="project-content">
+              <span class="project-type">Personal Project</span>
+              <h3>ExploreData</h3>
+              <p>Streamlit-based data analysis tool that lets users upload datasets (CSV, XLSX) and get immediate insights, comprehensive statistics, and a variety of visualizations with reproducible code snippets.</p>
+              <div class="project-tags">
+                <span>Python</span><span>Streamlit</span><span>Pandas</span><span>Data Visualization</span>
+              </div>
+              <div class="project-links">
+                <a href="https://exploredatatool-byvinay.streamlit.app/" target="_blank" class="project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                <a href="https://github.com/vinaypoduri888" target="_blank" class="project-link"><i class="bi bi-github"></i> Source</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-banner">
+              <img src="assets/images/visual.png" alt="VQA and Captioning Bot">
+            </div>
+            <div class="project-content">
+              <span class="project-type">Personal Project</span>
+              <h3>VQA &amp; Captioning Bot</h3>
+              <p>AI application for Visual Question Answering and Image Captioning using VILT and BLIP vision-language transformers. Supports image upload, webcam capture, and URL input with text and audio responses.</p>
+              <div class="project-tags">
+                <span>Python</span><span>Streamlit</span><span>VILT</span><span>BLIP</span><span>Deep Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="https://visualeai-byvinay.streamlit.app/" target="_blank" class="project-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                <a href="https://github.com/vinaypoduri888" target="_blank" class="project-link"><i class="bi bi-github"></i> Source</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS SECTION ===== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Credentials &amp; achievements</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+        <div class="cert-tabs reveal">
+          <button class="cert-tab active" data-cert-category="professional">Professional</button>
+          <button class="cert-tab" data-cert-category="achievements">Achievements</button>
+        </div>
+        <div class="cert-grid reveal" id="cert-grid">
+          <div class="cert-card cert-card-featured" data-cert-category="professional">
+            <div class="cert-image">
+              <img src="assets/images/cybersecurity-cert.png" alt="Cisco Introduction to Cybersecurity Certificate">
+            </div>
+            <h3>Introduction to Cybersecurity</h3>
+            <p class="cert-issuer">Cisco Networking Academy</p>
+            <a href="https://www.credly.com/badges/143bcaa3-8811-46dd-b5dd-5884f89e378b/public_url" target="_blank" class="cert-link">View Credential <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card" data-cert-category="professional">
+            <div class="cert-icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+            <h3>Power BI</h3>
+            <p class="cert-issuer">Internship Certification</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_ai-internship-aimers-activity-7253601720386125824-BymT" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card" data-cert-category="professional">
+            <div class="cert-icon"><i class="bi bi-cpu-fill"></i></div>
+            <h3>AI &amp; Machine Learning</h3>
+            <p class="cert-issuer">Microsoft · AICTE</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_ai-internship-aimers-activity-7253601720386125824-BymT" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card" data-cert-category="professional">
+            <div class="cert-icon"><i class="bi bi-cloud-fill"></i></div>
+            <h3>AWS Cloud Virtual Internship</h3>
+            <p class="cert-issuer">Amazon Web Services</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_awscertification-awscloud-educationskillsfoundation-activity-7106583766818582528-Ng-h" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card" data-cert-category="professional">
+            <div class="cert-icon"><i class="bi bi-graph-up"></i></div>
+            <h3>Data Science Internship</h3>
+            <p class="cert-issuer">DevZen</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_data-science-trainee-devzen-activity-7274810370630795264-1xkE" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card" data-cert-category="professional">
+            <div class="cert-icon"><i class="bi bi-code-square"></i></div>
+            <h3>Web Development</h3>
+            <p class="cert-issuer">CodersCave</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_webdevelopment-coderscave-webdevelopment-activity-7109579083222585344-fbGC" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card" data-cert-category="professional">
+            <div class="cert-icon"><i class="bi bi-shield-lock-fill"></i></div>
+            <h3>Cybersecurity Virtual Internship</h3>
+            <p class="cert-issuer">Palo Alto Networks</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_10weeks-cybersecurity-paloaltonetworks-activity-7139619301862375424-2r5G" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card hidden" data-cert-category="achievements">
+            <div class="cert-icon trophy"><i class="bi bi-trophy-fill"></i></div>
+            <h3>Viksit Bharat @2047 Declamation</h3>
+            <p class="cert-issuer">District Level — 1st Place</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_viksitbharat2047-viksitbharat2047-viksitbharat2047-activity-7168233344244142080-hGb_" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card hidden" data-cert-category="achievements">
+            <div class="cert-icon trophy"><i class="bi bi-trophy-fill"></i></div>
+            <h3>AI Hackathon</h3>
+            <p class="cert-issuer">National Level Competition</p>
+            <a href="https://www.linkedin.com/posts/vinaypoduri888_hackathon-ai-learning-activity-7296400250070540288-yGsE" target="_blank" class="cert-link">View Post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card hidden" data-cert-category="achievements">
+            <div class="cert-icon trophy"><i class="bi bi-award-fill"></i></div>
+            <h3>Cybersecurity Finalist</h3>
+            <p class="cert-issuer">National Level Competition</p>
+            <a href="https://www.linkedin.com/in/vinaypoduri888" target="_blank" class="cert-link">View Profile <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card hidden" data-cert-category="achievements">
+            <div class="cert-icon trophy"><i class="bi bi-award-fill"></i></div>
+            <h3>Project Expo</h3>
+            <p class="cert-issuer">College Level Competition</p>
+            <a href="https://www.linkedin.com/in/vinaypoduri888" target="_blank" class="cert-link">View Profile <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="cert-card hidden" data-cert-category="achievements">
+            <div class="cert-icon"><i class="bi bi-person-arms-up"></i></div>
+            <h3>Kho-Kho Captain</h3>
+            <p class="cert-issuer">Zonal Level — 1st Place (3 categories)</p>
+          </div>
+          <div class="cert-card hidden" data-cert-category="achievements">
+            <div class="cert-icon"><i class="bi bi-dribbble"></i></div>
+            <h3>Shuttle Badminton</h3>
+            <p class="cert-issuer">Inter-College — 2nd Place</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Get in touch</span>
+          <h2 class="section-title">Let's Work Together</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>I'm always open to discussing new projects, opportunities, or just having a conversation about AI and technology. Feel free to reach out!</p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:vinaypoduri888@gmail.com">vinaypoduri888@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                <div>
+                  <h3>Phone</h3>
+                  <a href="tel:+918466837448">+91 8466 837 448</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                <div>
+                  <h3>Location</h3>
+                  <p>Andhra Pradesh, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a href="https://www.linkedin.com/in/vinay-poduri-148b84265" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/vinaypoduri888" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://wa.me/918466837448" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.instagram.com/yours_v_i_n_a_y" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://t.me/vinaypoduri" target="_blank" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+            </div>
+          </div>
+          <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <input type="text" id="form-name" name="name" required placeholder=" ">
+              <label for="form-name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="form-email" name="email" required placeholder=" ">
+              <label for="form-email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea id="form-message" name="message" rows="5" required placeholder=" "></textarea>
+              <label for="form-message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="bi bi-send"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 Vinay Poduri. Crafted with passion &amp; code.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
